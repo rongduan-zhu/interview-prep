@@ -1,0 +1,8 @@
+*.exe
+*.o
+
+*.pyc
+*.pyo
+
+*.jar
+*.class

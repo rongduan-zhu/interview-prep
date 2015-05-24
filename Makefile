@@ -8,3 +8,6 @@ partition:
 
 bit_count:
 	$(CC) $(C99) -o bit_count.exe 0bit_count.c
+
+valid_ip:
+	$(CC) $(C99) -o valid_ip.exe valid_ip.c

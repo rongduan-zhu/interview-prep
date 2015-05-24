@@ -11,3 +11,6 @@ bit_count:
 
 valid_ip:
 	$(CC) $(C99) -o valid_ip.exe valid_ip.c
+
+remove_dup:
+	$(CC) $(C99) -o remove_dup.exe remove_dup.c

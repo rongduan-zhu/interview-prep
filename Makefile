@@ -3,6 +3,8 @@ CFLAGS=-Wall -c
 C99=-std=c99
 LINKERS=-lm
 
+HS=ghc
+
 partition:
 	$(CC) $(C99) -o partition.exe partition.c
 
@@ -17,3 +19,6 @@ remove_dup:
 
 palindrome:
 	$(CC) $(C99) -o palindrome.exe palindrome.c
+
+reverse_str_rec:
+	$(HS) -o reverse_str_rec.exe reverse_str.hs

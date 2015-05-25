@@ -14,3 +14,6 @@ valid_ip:
 
 remove_dup:
 	$(CC) $(C99) -o remove_dup.exe remove_dup.c
+
+palindrome:
+	$(CC) $(C99) -o palindrome.exe palindrome.c

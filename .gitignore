@@ -6,3 +6,5 @@
 
 *.jar
 *.class
+
+*.hi

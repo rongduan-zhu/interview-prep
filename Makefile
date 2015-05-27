@@ -5,6 +5,8 @@ LINKERS=-lm
 
 HS=ghc
 
+JJ=javac
+
 partition:
 	$(CC) $(C99) -o partition.exe partition.c
 
@@ -22,3 +24,6 @@ palindrome:
 
 reverse_str_rec:
 	$(HS) -o reverse_str_rec.exe reverse_str.hs
+
+parseInt:
+	$(JJ) ParseInt.java
